@@ -1,0 +1,40 @@
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.pyo
+__pycache__/
+db.sqlite3
+db.sqlite3-journal
+
+# Media and static files
+/media/
+/staticfiles/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# IDE files
+.vscode/
+*.swp
+*.swo
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.env
+.env.*
